@@ -53,10 +53,6 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-
-        int[] arr1 = { 2, 5, 6, 9 };
-        int[] arr2 = { 1, 3, 4, 7, 8, 10 };
-
         int[] arr = { 4, 36, 6, 3, 2, 7, 2, 1, 0 };
         int[] sortedArr = arrSort(arr);
         for (int i : sortedArr) {

@@ -11,7 +11,7 @@ public class BubbleSort {
         int n = arr.length;
         // lặp từ đầu đến phần tử cuối cùng của mảng
         for (int i = 0; i < n; i++) {
-            // lặp từ đầu đến phần tử gần cuối, và sau mỗi vòng lặp lớp
+            // lặp từ đầu đến phần tử gần cuối, và sau mỗi vòng lặp lớn
             // thì vòng lặp nhỏ sẽ giảm đi i vòng, vì lúc này những phần
             // tử lớn nhất đã được trôi xuống dưới theo thứ tự rồi,
             // nên ko cần lặp đến nữa.
