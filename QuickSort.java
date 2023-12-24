@@ -13,10 +13,10 @@ public class QuickSort {
 
         // phân bổ lại mảng theo khóa -> Trị trước
         int k = partition(arr, L, R, key);
-        System.out.println("L= " + L + " R= " + R + " key=" + k);
-        System.out.println(Arrays.toString(Arrays.copyOfRange(arr, L, R + 1)));
+        // System.out.println("L= " + L + " R= " + R + " key=" + k);
+        // System.out.println(Arrays.toString(Arrays.copyOfRange(arr, L, R + 1)));
 
-        System.out.println("-----------------");
+        // System.out.println("-----------------");
         // chia đôi mảng, chia-> lặp lại nên dùng đệ quy -> Rồi chia
         quickSort(arr, L, k - 1); // đệ quy để sắp xếp mảng bên trái của pivot, mảng này chứa những phần tử nhỏ
                                   // hơn pivot

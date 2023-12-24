@@ -36,5 +36,6 @@ public class _27_remove_element {
         int[] nums = { 1, 2, 2, 4, 2, 8, 2, 8 };
         // removeElement(nums, 2);
         System.out.println(removeElementV2(nums, 2));
+        System.out.println("0" + 2);
     }
 }
